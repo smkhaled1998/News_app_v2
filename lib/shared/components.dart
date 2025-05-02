@@ -34,7 +34,7 @@ Widget buildArticleItem(list,context) {
                   Expanded(
                       child: Text(
                     '${list['title']}',
-                    style: Theme.of(context).textTheme.bodyText1,
+                    // style: Theme.of(context).textTheme.bodyText1,
                     maxLines: 3,
                     overflow: TextOverflow.ellipsis,
                   )),
